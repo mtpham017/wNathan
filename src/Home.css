@@ -1,0 +1,109 @@
+.Border{
+    
+    border: 2px solid black;
+    width: auto;
+    height: 914px;
+    padding: 40px;
+    margin: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+
+.head1{
+    cursor: default;
+    color: #0d0d0d;
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    margin: -3px 0px 0px 20px;
+}
+
+span::before{
+    content: "Life Portfolio";
+    animation: animate infinite 17s;
+    
+    
+}
+
+@keyframes animate{
+    0% {
+        content: "Photography";
+    }
+
+    25% {
+        content: "Food";
+    }
+
+    50% {
+        content: "Music"
+    }
+}
+
+
+p{
+    color: #0d0d0d;
+    font-weight: 500;
+    font-size: 23px;
+    font-family: 'Inter', sans-serif;   
+    margin: -20px 0px 0px 25px;
+}
+
+.list{
+    margin: 55px 0px 0px 20px;
+
+}
+
+a:hover{
+    font-size: 80px;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+.All{
+    color: #0d0d0d;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif; 
+    margin-bottom: 8px;
+}
+
+
+.trips{
+    color: #0d0d0d;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif; 
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+.Foods{
+    color: #0d0d0d;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif; 
+    margin-bottom: 8px;
+}
+
+
+.Music{
+    color: #0d0d0d;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif; 
+    margin-bottom: 8px;
+}
+
+.Info{
+    color: #0d0d0d;
+    font-size: 55px;
+    font-weight: 600;
+    font-family: 'Cormorant Garamond', serif; 
+    margin-bottom: 8px;
+}
