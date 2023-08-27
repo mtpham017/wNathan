@@ -6,7 +6,7 @@ function Home() {
       <div class = "Border">
       <h1 class = "head1">w/Nathan</h1>
     
-      <p><span>  </span></p>
+      <p><span class = "ani">  </span></p>
       <div class = "list">
 
       <div class = "All">
