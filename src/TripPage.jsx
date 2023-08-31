@@ -3,17 +3,24 @@ import {Link} from "react-router-dom"
 
 function TripPage() {
   return (
-    <div class = "photos">
-    <div class = "side">
-      <button></button>
-    <div>
-    <h1 class = "head">Trips</h1>
-      <Link to ="/" style={{ textDecoration: 'none' }}>
-        <h2 class = "sideTitle">w/Nathan</h2>
-      </Link>
-    </div>
-    </div>
-    </div>
+    <body>
+
+    <nav class = "navbar"></nav>
+      <ul class = "navbar-nav">
+        <li class = "nav-item">
+
+        </li>
+        
+      </ul>
+  
+    <main>
+
+
+    <h1> Trips </h1>
+    </main>
+
+    
+    </body>
   );
 }
 

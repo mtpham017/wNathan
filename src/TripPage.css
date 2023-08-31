@@ -1,4 +1,36 @@
-.container{
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar{
+    width: 5rem;
+    height: 100vh;
+    position:fixed;
+    border-right: 2px solid #222222;
+}
+
+h1{
+    cursor: default;
+    color: #0d0d0d;
+    font-size: 70px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    margin-top: -0.5rem;
+    margin-left: 1rem;
+    
+}
+
+
+
+/*.container{
     display: flex;
     
 }
@@ -54,7 +86,7 @@ button:hover{
     display:flex;
     
 }
-
+*/
 
 
 
