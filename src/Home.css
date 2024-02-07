@@ -1,3 +1,5 @@
+
+
 .Border{
     
     border: 2px solid black;
@@ -14,38 +16,9 @@
     font-size: 70px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 300;
-    margin: -3px 0px 10spx 20px;
+    margin: -3px 0px 10px 20px;
 }
 
-.ani::before{
-    content: "Life Portfolio";
-    animation: animate infinite 17s;
-    
-    
-}
-
-@keyframes animate{
-    0% {
-        content: "Photography";
-    }
-
-    25% {
-        content: "Food";
-    }
-
-    50% {
-        content: "Music"
-    }
-}
-
-
-p{
-    color: #0d0d0d;
-    font-weight: 500;
-    font-size: 23px;
-    font-family: 'Inter', sans-serif;   
-    margin: -50px 0px 0px 5px;
-}
 
 .list{
     margin: 55px 0px 0px 20px;
