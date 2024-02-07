@@ -1,14 +1,12 @@
-
-
-.Border{
-    
+.Border {
     border: 2px solid black;
-    width: auto;
-    height: 830px;
-    padding: 40px;
-    margin: 5px 5px 5px 5px;
+    width: 95%; 
+    height: 95%; 
+    padding: 4%;
+    margin: 2%;
     box-sizing: border-box;
 }
+
 
 .head1{
     cursor: default;
