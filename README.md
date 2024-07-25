@@ -39,8 +39,8 @@ To set up this project locally:
 
 ## Usage
 
-    Navigate through different sections to explore photos, music, and reviews.
-    Use the navigation bar to switch between sections.
+   Navigate through different sections to explore photos, music, and reviews.
+   Use the navigation bar to switch between sections.
     
 ## License
 
