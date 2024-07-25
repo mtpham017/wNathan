@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zodiak';
+    color: #FFFFE3;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #FFFFE3;
+    border-top: none;
+    height: 10vh;
+}
+
+.title-box{
+    height: 10vh;
+    width: 33.3vh;
+    /* border: 3px solid #ff0707; */
+    border-right: 3px solid #FFFFE3;
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #e6e5eb00;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #303030;
+    min-height: 20px;  
+    max-height: 50px;  
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #303030;
+  }
+  
+  
+  ::-webkit-scrollbar-button {
+    display: none;
+  }
+  
+
+body {
+  scrollbar-width: thin; 
+  scrollbar-color: #303030 #e6e5eb00; 
+}
+
+
