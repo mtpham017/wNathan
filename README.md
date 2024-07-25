@@ -29,10 +29,27 @@ To set up this project locally:
    
 2. **Run the Development Server**
 
+   ```bash
    npm run dev
 
 3. **Open in Browser**
 
+   ```bash
    Open your browser and navigate to http://localhost:3000.
+
+## Usage
+
+    Navigate through different sections to explore photos, music, and reviews.
+    Use the navigation bar to switch between sections.
+    
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+Nathan Pham - mtphamle17@gmail.com
+
+Feel free to contact me if you have any questions or suggestions.
 
 
