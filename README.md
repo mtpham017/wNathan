@@ -41,7 +41,28 @@ To set up this project locally:
 
    Navigate through different sections to explore photos, music, and reviews.
    Use the navigation bar to switch between sections.
-    
+
+## Project Structure
+
+      ```bash
+         your-repo-name/
+      ├── public/
+      │   └── ...
+      ├── src/
+      │   ├── components/
+      │   │   ├── Header.jsx
+      │   │   ├── Navbar.jsx
+      │   │   ├── Trip_section.jsx
+      │   │   └── ...
+      │   ├── App.jsx
+      │   ├── index.css
+      │   └── main.jsx
+      ├── .gitignore
+      ├── index.html
+      ├── package.json
+      └── README.md
+
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
