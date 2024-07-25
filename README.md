@@ -45,7 +45,7 @@ To set up this project locally:
 ## Project Structure
 
       
-         your-repo-name/
+         wNathan/
       ├── public/
       │   └── ...
       ├── src/
