@@ -26,4 +26,13 @@ To set up this project locally:
 
    ```bash
    npm install
+   
+2. **Run the Development Server**
+
+   npm run dev
+
+3. **Open in Browser**
+
+   Open your browser and navigate to http://localhost:3000.
+
 
