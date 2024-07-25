@@ -44,7 +44,7 @@ To set up this project locally:
 
 ## Project Structure
 
-      ```bash
+      
          your-repo-name/
       ├── public/
       │   └── ...
