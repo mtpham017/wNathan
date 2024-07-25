@@ -1,8 +1,29 @@
-# React + Vite
+# Nathan Pham's Personal Webpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a stylized personal webpage where I showcase my photos from various trips, document my experiences, share my favorite music along with ratings and thoughts, and provide my reviews and opinions on movies and TV shows I've watched. This project is built using React and Vite.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [License](#license)
+- [Contact](#contact)
+
+## Features
+
+- **Photography**: Display photos from my trips with descriptions and stories.
+- **Music**: Share my favorite music, including ratings and personal thoughts.
+- **Movies & TV Shows**: Review and rate movies and TV shows I've watched.
+- **Responsive Design**: Ensures the webpage looks great on all devices.
+
+## Installation
+
+To set up this project locally:
+
+1. **Install Dependencies**
+
+   ```bash
+   npm install
+
