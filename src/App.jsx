@@ -3,37 +3,37 @@ import Navbar from './components/Navbar.jsx';
 import './components/Scrollbar.css';
 import Header from './components/Header.jsx';
 import Trip from './components/Zones.jsx';
-// import StandBlock from './components/StandBlock.jsx';
+import StandBlock from './components/StandBlock.jsx';
 import AlbumGrid from './components/AlbumGrid.jsx';
 
 import './App.css';
 
-const albums = [
-  { 
-    year: '20XX', 
-    title: 'Album 1', 
-    artistGenre: 'Artist, Genre',
-    yearClass: 'year-album1', 
-    titleClass: 'title-album1', 
-    artistGenreClass: 'artist-genre-album1' 
-  },
-  { 
-    year: '20XX', 
-    title: 'Album 2', 
-    artistGenre: 'Artist, Genre',
-    yearClass: 'year-album2', 
-    titleClass: 'title-album2', 
-    artistGenreClass: 'artist-genre-album2' 
-  },
-  { 
-    year: '20XX', 
-    title: 'Album 3', 
-    artistGenre: 'Artist, Genre',
-    yearClass: 'year-album3', 
-    titleClass: 'title-album3', 
-    artistGenreClass: 'artist-genre-album3' 
-  }
-];
+// const albums = [
+//   { 
+//     year: '20XX', 
+//     title: 'Album 1', 
+//     artistGenre: 'Artist Genre',
+//     yearClass: 'year-album1', 
+//     titleClass: 'title-album1', 
+//     artistGenreClass: 'artist-genre-album1' 
+//   },
+//   { 
+//     year: '20XX', 
+//     title: 'Album 2', 
+//     artistGenre: 'Artist, Genre',
+//     yearClass: 'year-album2', 
+//     titleClass: 'title-album2', 
+//     artistGenreClass: 'artist-genre-album2' 
+//   },
+//   { 
+//     year: '20XX', 
+//     title: 'Album 3', 
+//     artistGenre: 'Artist, Genre',
+//     yearClass: 'year-album3', 
+//     titleClass: 'title-album3', 
+//     artistGenreClass: 'artist-genre-album3' 
+//   }
+// ];
 
 
 
@@ -75,7 +75,7 @@ function App() {
         </div>
       </div>
 
-      <Header
+      <Header className="photo-header"
         title={<h1 className='title-name'>Photos</h1>}
         pattern={<div className='pattern'></div>}
       />
@@ -93,13 +93,19 @@ function App() {
         ))}
       </div>
 
-      <Header
+      <Header className = "music-header"
           title={<h1 className='music-title'>Music</h1>}
           pattern={<div className='music-pattern'></div>}
-        />
+      />
 
       <div className='main-box3'>
-        <AlbumGrid albums={albums} />
+        <StandBlock
+            date={<h1 className='albumDate'>20XX</h1>}
+            info={<h1 className='info1'>Artist <br></br> Genre </h1>}
+            label={<h1 className='album1'>Album 1</h1>}
+          />
+
+        {/* <AlbumGrid albums={albums} /> */}
       
         
       </div>

@@ -61,6 +61,8 @@
   min-height:60vh;
 }
 
+
+
 .title-name{
   display: flex;
   align-items: center;
@@ -111,7 +113,6 @@
 
 
 .trip2{
-  /* margin-left:5%; */
   padding-left: 4%;
   display: flex;
   justify-content: flex-start;
@@ -144,6 +145,7 @@
   border: none;
   min-height:60vh;
   border: 3px solid #FFFFE3;
+  border-top: none;
 }
 
 .music-title{
@@ -159,33 +161,45 @@
   height: 10vh;
   width: 100%;
   background-image: url(./assets/pattern2.svg);
-  /* background-color: #10100e; */
-  /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffe3' fill-opacity='1'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); */
-
-
 }
 
 
 .albumDate{
-  /* border-bottom: 3px solid #FFFFE3; */
-  height: 36vh;
-  width: 30vh; 
+  height: 24vh;
+  width: 50vh; 
   display: flex;
   align-items: flex-end; 
-  justify-content: center; 
-  text-align: center; 
   transform: rotate(-90deg);
   font-size: 9vh;
+  /* border-bottom: 3px solid orange; */
 }
 
 .album1{
-    /* margin-left:5%; */
     padding-left: 4%;
     display: flex;
     justify-content: flex-start;
     align-items:center ;
     font-size: 8vh;
     width: 100%;
-    height: 29.7vh;
+    height: 30vh;
+    /* border-left: 3px solid #FFFFE3; */
+    background-image: url(./assets/babykeem.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+
+}
+
+.info1{
+  display: flex;
+  font-family: 'Satoshi';
+  font-weight: 500;
+  height: 20vh;
+  width: 6vh;
+  align-items: end;
+  margin: auto;
+  
+  
+
 
 }
