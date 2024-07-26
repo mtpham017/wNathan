@@ -3,6 +3,8 @@ import Navbar from './components/Navbar.jsx';
 import './components/Scrollbar.css';
 import Header from './components/Header.jsx';
 import Trip from './components/Zones.jsx';
+import StandBlock from './components/StandBlock.jsx';
+
 import './App.css';
 
 
@@ -15,6 +17,8 @@ function App() {
     
     
   ];
+
+ 
 
   return (
     <div className="App">
@@ -60,15 +64,19 @@ function App() {
         ))}
       </div>
 
-      <div className='main-box3'>
-        <Header
+      <Header
           title={<h1 className='music-title'>Music</h1>}
           pattern={<div className='music-pattern'></div>}
         />
-        
 
+      <div className='main-box3'>
+      
+        <StandBlock
+          date={<h1 className='albumDate'>20XX</h1>}
+          info={<h1 className='info1'>hello</h1>}
+          label={<h1 className='album1'>Album 1</h1>}
+        />
       </div>
-
 
     </div>
   );

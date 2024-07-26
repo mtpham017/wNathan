@@ -156,4 +156,26 @@
 
 } */
 
+.albumDate{
+  /* border-bottom: 3px solid #FFFFE3; */
+  height: 36vh;
+  width: 30vh; 
+  display: flex;
+  align-items: flex-end; 
+  justify-content: center; 
+  text-align: center; 
+  transform: rotate(-90deg);
+  font-size: 9vh;
+}
 
+.album1{
+    /* margin-left:5%; */
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    font-size: 8vh;
+    width: 100%;
+    height: 29.7vh;
+
+}

@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Zodiak';
+    color: #FFFFE3;
+}
+
+.standBlock {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid #ff2600;
+    /* border-top: none; */
+    height: 30vh;
+}
+
+.dateBlock{
+    display: flex;
+    align-items:center;
+    flex-direction: row-reverse;
+    height: 30vh;
+    width: 35vh;
+    margin-right: 8px;
+    border: 3px solid #076aff;
+    
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.labelBox{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center ;
+    height: 30vh;
+    width: 90%;
+    /* border: 3px solid #ff0707; */
+}
