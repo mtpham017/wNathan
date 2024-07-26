@@ -2,16 +2,17 @@ import React from 'react';
 import Navbar from './components/Navbar.jsx';
 import './components/Scrollbar.css';
 import Header from './components/Header.jsx';
-import Trip from './components/Trip_section.jsx';
+import Trip from './components/Zones.jsx';
 import './App.css';
 
 
 function App() {
 
-  // Trip sections
-  const tripSections = [
-    { title: <h1 className='trip1'>Trip 1</h1>, date: <h1 className='date1'>20XX</h1>, isReversed: true },
-    { title: <h1 className='trip2'>Trip 2</h1>, date: <h1 className='date2'>20XX</h1>, isReversed: false },
+  // Zones
+  const Zones = [
+    { title: <h1 className='trip1'>Trip 1</h1>, date: <h1 className='tripDate1'>20XX</h1>, isReversed: true },
+    { title: <h1 className='trip2'>Trip 2</h1>, date: <h1 className='tripDate2'>20XX</h1>, isReversed: false },
+    
     
   ];
 
@@ -43,13 +44,13 @@ function App() {
 
       <Header
         title={<h1 className='title-name'>Photos</h1>}
-        pattern={<div className='pattern-box'>Pattern here</div>}
+        pattern={<div className='pattern'></div>}
       />
 
       
 
       <div className='main-box2'>
-        {tripSections.map((section, index) => (
+        {Zones.map((section, index) => (
           <Trip 
             key={index}
             title={section.title}
@@ -58,6 +59,17 @@ function App() {
           />
         ))}
       </div>
+
+      <div className='main-box3'>
+        <Header
+          title={<h1 className='music-title'>Music</h1>}
+          pattern={<div className='music-pattern'></div>}
+        />
+        
+
+      </div>
+
+
     </div>
   );
 }

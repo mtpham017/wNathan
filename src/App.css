@@ -1,3 +1,9 @@
+.body{
+  margin:0 ;
+  padding: 0;
+  background-color: #10100E;
+}
+
 .main-box{
     display: flex;
     border: 3px solid #FFFFE3;
@@ -61,6 +67,17 @@
   justify-content: center;
 }
 
+.pattern {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+  width: 100%;
+  background-image: url('/src/assets/pattern1.svg');
+  background-size: contain;
+  /* background-repeat: repeat-x; */
+  background-position: center center;
+}
 
 
 .trip1{
@@ -80,7 +97,7 @@
    
 }
 
-.date1 {
+.tripDate1 {
   border-bottom: 3px solid #FFFFE3;
   height: 36.8vh;
   width: 30.2vh;
@@ -109,7 +126,7 @@
   /* border: 3px solid red;     */
 }
 
-.date2{
+.tripDate2{
   border-top: 3px solid #FFFFE3;
   height: 36vh;
   width: 30.2vh; 
@@ -120,4 +137,23 @@
   transform: rotate(-90deg);
   font-size: 9vh;
 }
+
+.main-box3{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  min-height:60vh;
+  border: 3px solid #FFFFE3;
+}
+
+.music-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .music-pattern{
+
+} */
+
 

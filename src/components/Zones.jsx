@@ -1,21 +1,21 @@
 import React from 'react';
-import './Trip-section.css';
+import './Zones.css';
 
-const Trip = ({ title, date, isReversed }) => {
+const Zones = ({ title, date, isReversed }) => {
     return (
-        <div className="trip-sec">
+        <div className="Zone">
             {isReversed ? (
                 <>
                     <div className="date-box">
                         {date}
                     </div>
-                    <div className="trip-box">
+                    <div className="zone-box">
                         {title}
                     </div>
                 </>
             ) : (
                 <>
-                    <div className="trip-box">
+                    <div className="zone-box">
                         {title}
                     </div>
                     <div className="date-box">
@@ -27,4 +27,4 @@ const Trip = ({ title, date, isReversed }) => {
     );
 };
 
-export default Trip;
+export default Zones;

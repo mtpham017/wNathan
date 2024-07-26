@@ -13,7 +13,7 @@ const Navbar = () => {
                 </button>
             </div>
 
-            <div className="pattern-box">
+            <div className="navBarPattern">
             </div>
 
         </nav>

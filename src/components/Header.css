@@ -16,10 +16,19 @@ body {
 
 .title-box{
     height: 10vh;
-    width: 33.3vh;
+    width: 33.9vh;
     /* border: 3px solid #ff0707; */
     border-right: 3px solid #FFFFE3;
 
+}
+
+.pattern-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    height: 9.4vh;
+    width: 85%;
 }
 
 
