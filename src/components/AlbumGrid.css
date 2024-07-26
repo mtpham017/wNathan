@@ -1,0 +1,94 @@
+.album-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto auto;
+    height: 56.3vh;
+    padding: 16px;
+    border: 1px solid #ffffe3; /* Optional: Border for the entire grid */
+    position: relative;
+  }
+  
+  
+  .grid-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #10100e;
+    color: #ffffe3;
+    border: 3px solid #5900ff;
+    padding: 16px;
+    position: relative;
+    z-index: 2; /* Ensure content is above grid lines */
+  }
+  
+  .item-large {
+    grid-column: span 2;
+    display: flex;
+  }
+  
+  .year-box {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 24px;
+    margin-right: 16px;
+    border: 3px solid #04ff2e
+  }
+  
+  .album-title {
+    font-size: 10vh;
+    border: 3px solid red;
+  }
+  
+  .album-details {
+    margin-top: auto;
+    border: 3px solid blue;
+  }
+
+  
+  /* Specific styles for each album */
+  .year-album1 {
+    /* Your styles for year of Album 1 */
+  }
+  
+  .title-album1 {
+    /* Your styles for title of Album 1 */
+  }
+  
+  .artist-genre-album1 {
+    /* Your styles for artist/genre of Album 1 */
+  }
+  
+  .year-album2 {
+    /* Your styles for year of Album 2 */
+  }
+  
+  .title-album2 {
+    /* Your styles for title of Album 2 */
+  }
+  
+  .artist-genre-album2 {
+    /* Your styles for artist/genre of Album 2 */
+  }
+  
+  .year-album3 {
+    /* Your styles for year of Album 3 */
+  }
+  
+  .title-album3 {
+    /* Your styles for title of Album 3 */
+  }
+  
+  .artist-genre-album3 {
+    /* Your styles for artist/genre of Album 3 */
+  }
+  
+  .pattern {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+    background-color: #10100e;
+    border: 1px solid #ffffe3;
+    /* Add your pattern image or styles here */
+    background-image: url('/src/assets/pattern2.svg');
+    
+  }
+  
+  
