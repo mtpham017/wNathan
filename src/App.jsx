@@ -75,9 +75,7 @@ function App() {
             label={<h1 className='album1'>Album 1</h1>}
           />
 
-        <AlbumGrid></AlbumGrid>
-      
-        
+        <AlbumGrid />
       </div>
 
     </div>

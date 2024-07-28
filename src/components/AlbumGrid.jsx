@@ -1,34 +1,24 @@
 import React from 'react';
 import './AlbumGrid.css';
 
+const AlbumBox = ({ name, details, date }) => (
+  <div className="album-box">
+    <h1 className="album-name">{name}</h1>
+    <div className="album-info">
+      <p className="album-details">{details}</p>
+      <p className="album-date">{date}</p>
+    </div>
+  </div>
+);
+
 function AlbumGrid() {
   return (
     <div className="grid-container">
-      <div className='album-box1'>
-        <h1 className='album-name1'>
-          album 2
-        </h1>
-        <p className='album-details1'>
-          Arsit Genre 20XX
-        </p>
-      </div>
-
-      <div className='album-box2'>
-        <h1 className='album-name2'>
-          album 3
-        </h1>
-        <p className='album-detail2'>
-          Arsit Genre 20XX
-        </p>
-      </div>
-
-      <div className='album-pattern'>
-
-      </div>
-
+      <AlbumBox name="Album 2" details="Artist, Genre" date="20XX" />
+      <AlbumBox name="Album 3" details="Artist, Genre" date="20XX" />
+      <div className='album-pattern'></div>
     </div>
   );
 }
 
 export default AlbumGrid;
-
