@@ -1,103 +1,41 @@
-.album-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
-    gap: 1px;
-    height: 56.3vh;
-    padding: 1px;
-    border: 1px solid #ffffe3;
-    background-color: #ffffe3;
-  }
-  
-  .grid-item {
-    display: flex;
-    background-color: #10100e;
-    color: #ffffe3;
-    padding: 16px;
-    position: relative;
-  }
-  
-  .item-large {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .year-box {
-    font-size: 24px;
-    margin-right: 16px;
-    border: 3px solid #04ff2e;
-    height: 24vh;
-  }
-  
-  .album-content {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-  }
-  
-  .album-title {
-    font-size: 10vh;
-    border: 3px solid red;
-  }
-  
-  .album-details {
-    margin-top: auto;
-    border: 3px solid blue;
-  }
-  
-  .pattern {
-    background-color: #10100e;
-    background-image: url('/src/assets/pattern2.svg');
-    
-  }
-  
-  /* Specific styles for each album */
-  .year-album1{
-    display: flex;
-    
-    
-    
+.grid-container{
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 47.5% 47.5% auto;
+  grid-template-rows: 80%;
+  /* border: 3px solid red; */
+  height:29vh;
+  width: auto;
+}
 
-  }
-  
-  
-  .year-album2, .year-album3 {
-    display: flex;
-    align-items: flex-end;
+.album-box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: 3px solid red;
+  height: 29vh;
+  width: 90%;
+}
 
-    /* margin: auto; */
+.album-name1{
+  border: 3px solid green;
+  height: 70%;
+}
 
-    /* Add specific styles if needed */
+.album-details1{
+  border: 3px solid blue;
+  height: 30%;
+}
 
-  }
-  
-  .title-album1, .title-album2, .title-album3 {
-    margin: auto;
-    /* Add specific styles if needed */
-  }
-  
-  .artist-genre-album1{
-    font-family: 'Satoshi';
-    font-size:3vh;
-  }
-   .artist-genre-album2, .artist-genre-album3 {
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Satoshi';
-    font-size:3vh;
+.album-box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid red;
+  height: 29vh;
+  width: 90%;
+}
 
-    /* Add specific styles if needed */
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .album-grid {
-      grid-template-columns: 1fr;
-    }
-  
-    .item-large, .grid-item, .pattern {
-      grid-column: 1 / -1;
-    }
-  }
   

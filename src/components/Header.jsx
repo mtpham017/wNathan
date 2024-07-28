@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-const Header = ({ className, title, pattern }) => {
+const Header = ({title, pattern }) => {
     return (
         <div className="header">
             <div className="title-box">

@@ -1,41 +1,34 @@
 import React from 'react';
 import './AlbumGrid.css';
 
-const AlbumGrid = ({ albums }) => {
+function AlbumGrid() {
   return (
-    <div className="album-grid">
-      <div className="grid-item item-large">
-        <div className={`year-box ${albums[0].yearClass}`}>
-          {albums[0].year}
-        </div>
-        <div className="album-content">
-          <div className={`album-title ${albums[0].titleClass}`}>
-            {albums[0].title}
-          </div>
-          <div className={`album-details ${albums[0].artistGenreClass}`}>
-            {albums[0].artistGenre}
-          </div>
-        </div>
+    <div className="grid-container">
+      <div className='album-box1'>
+        <h1 className='album-name1'>
+          album 2
+        </h1>
+        <p className='album-details1'>
+          Arsit Genre 20XX
+        </p>
       </div>
-      {albums.slice(1).map((album, index) => (
-        <div key={index} className="grid-item">
-          <div className={`year-box ${album.yearClass}`}>
-            {album.year}
-          </div>
-          <div className="album-content">
-            <div className={`album-title ${album.titleClass}`}>
-              {album.title}
-            </div>
-            <div className={`album-details ${album.artistGenreClass}`}>
-              {album.artistGenre}
-            </div>
-          </div>
-        </div>
-      ))}
-      <div className="pattern"></div>
+
+      <div className='album-box2'>
+        <h1 className='album-name2'>
+          album 3
+        </h1>
+        <p className='album-detail2'>
+          Arsit Genre 20XX
+        </p>
+      </div>
+
+      <div className='album-pattern'>
+
+      </div>
+
     </div>
   );
-};
+}
 
 export default AlbumGrid;
 

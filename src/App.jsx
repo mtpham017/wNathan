@@ -8,34 +8,6 @@ import AlbumGrid from './components/AlbumGrid.jsx';
 
 import './App.css';
 
-// const albums = [
-//   { 
-//     year: '20XX', 
-//     title: 'Album 1', 
-//     artistGenre: 'Artist Genre',
-//     yearClass: 'year-album1', 
-//     titleClass: 'title-album1', 
-//     artistGenreClass: 'artist-genre-album1' 
-//   },
-//   { 
-//     year: '20XX', 
-//     title: 'Album 2', 
-//     artistGenre: 'Artist, Genre',
-//     yearClass: 'year-album2', 
-//     titleClass: 'title-album2', 
-//     artistGenreClass: 'artist-genre-album2' 
-//   },
-//   { 
-//     year: '20XX', 
-//     title: 'Album 3', 
-//     artistGenre: 'Artist, Genre',
-//     yearClass: 'year-album3', 
-//     titleClass: 'title-album3', 
-//     artistGenreClass: 'artist-genre-album3' 
-//   }
-// ];
-
-
 
 function App() {
 
@@ -46,8 +18,6 @@ function App() {
     
     
   ];
-
- 
 
   return (
     <div className="App">
@@ -105,7 +75,7 @@ function App() {
             label={<h1 className='album1'>Album 1</h1>}
           />
 
-        {/* <AlbumGrid albums={albums} /> */}
+        <AlbumGrid></AlbumGrid>
       
         
       </div>
