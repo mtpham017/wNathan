@@ -78,6 +78,18 @@ function App() {
         <AlbumGrid />
       </div>
 
+      <Header className = "cinema-header"
+          title={<h1 className='cinema-title'>Cinema</h1>}
+          pattern={<div className='cinema-pattern'></div>}
+      />
+
+      <div className='main-box4'>
+
+
+        
+      </div>
+      
+
     </div>
   );
 }
