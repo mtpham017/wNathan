@@ -3,6 +3,7 @@ import './MovieGrid.css';
 import Lalaland from '../assets/Lalaland.jpg';
 import Interstellar from '../assets/Interstellar.jpg';
 import Hometown from '../assets/hometown.jpg';
+import YLIA from '../assets/ylia.png'
 
 const MovieBox = ({ name, details, date, backgroundImage }) => (
   <div className="movie-box" style={{ '--background-image': `url(${backgroundImage})` }}>
@@ -18,10 +19,10 @@ function MovieGrid() {
   return (
     <div className="movie-container">
       <MovieBox 
-        name="Movie 1" 
+        name="La La Land" 
         details="Director, Genre" 
         date="20XX" 
-        backgroundImage={Hometown} 
+        backgroundImage={Lalaland} 
       />
       <MovieBox 
         name="Interstellar" 
@@ -36,10 +37,10 @@ function MovieGrid() {
         backgroundImage={Hometown} 
       />
       <MovieBox 
-        name="Movie 4" 
+        name="Your Lie In April" 
         details="Director, Genre" 
         date="20XX" 
-        backgroundImage={Hometown} // Add another image or use existing
+        backgroundImage={YLIA} // Add another image or use existing
       />
     </div>
   );

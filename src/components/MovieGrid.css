@@ -20,6 +20,7 @@
     color: white;
     text-align: center;
     overflow: hidden;
+    cursor:pointer;
   }
   
   .movie-box::before {
