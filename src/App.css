@@ -183,7 +183,7 @@
   font-size: 9vh;
 }
 
-.main-box3, .main-box4{
+.main-box3{
   display: flex;
   flex-direction: column;
   border: none;
@@ -246,8 +246,14 @@
   width: 6vh;
   align-items: end;
   margin: auto;
-  
-  
-
-
 }
+
+.main-box4{
+  display: flex;
+  flex-direction: column;
+  border: none;
+  min-height:70vh;
+  border: 3px solid #FFFFE3;
+  border-top: none;
+}
+

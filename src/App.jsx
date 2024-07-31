@@ -5,8 +5,9 @@ import Header from './components/Header.jsx';
 import Trip from './components/Zones.jsx';
 import StandBlock from './components/StandBlock.jsx';
 import AlbumGrid from './components/AlbumGrid.jsx';
-
+import MovieGrid from './components/MovieGrid.jsx';
 import './App.css';
+
 
 
 function App() {
@@ -84,9 +85,7 @@ function App() {
       />
 
       <div className='main-box4'>
-
-
-        
+        <MovieGrid />
       </div>
       
 
