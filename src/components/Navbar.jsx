@@ -24,9 +24,9 @@ const Navbar = () => {
                 <div className="overlay">
                     <button className="close-button" onClick={toggleOverlay}>X</button>
                     <div className="overlay-content">
-                        <a href="/trips">Trips</a>
-                        <a href="/albums">Albums</a>
-                        <a href="/cinema">Cinema</a>
+                        <a href="/Trips">Trips</a>
+                        <a href="/Albums">Albums</a>
+                        <a href="/Cinema">Cinema</a>
                     </div>
                 </div>
             )}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 import './components/Scrollbar.css';
 import Header from './components/Header.jsx';
@@ -6,6 +7,9 @@ import Trip from './components/Zones.jsx';
 import StandBlock from './components/StandBlock.jsx';
 import AlbumGrid from './components/AlbumGrid.jsx';
 import MovieGrid from './components/MovieGrid.jsx';
+// import Trips from './pages/Trips';
+// import Albums from './pages/Albums';
+// import Cinema from './pages/Cinema';
 import './App.css';
 
 
@@ -21,6 +25,8 @@ function App() {
   ];
 
   return (
+    <Router>
+
     <div className="App">
       <Navbar />
       
@@ -90,6 +96,7 @@ function App() {
       
 
     </div>
+    </Router>
   );
 }
 
