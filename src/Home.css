@@ -1,0 +1,260 @@
+.body{
+    margin:0 ;
+    padding: 0;
+    background-color: #10100E;
+  }
+  
+  .main-box{
+      display: flex;
+      border: 3px solid #FFFFE3;
+      border-top: none;
+  }
+  
+  .name-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      height: 104.4vh;
+      width: 100%;
+      flex-grow: 1;
+      background-image: url('/src/assets/nameBoxBG.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      /* border: 3px solid #FFFFE3; */
+      
+    }
+  
+    .name {
+      font-family: 'Zodiak';
+      font-size: 24vh;
+      margin-bottom: 0; 
+    }
+    
+    .sub-text {
+      text-align: center;
+      margin-top: -2vh; 
+      font-size: 2.3vh; 
+    }
+  
+    .info-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100vh;
+      width: 34.5vh;
+      border-right: 3px solid #FFFFE3;
+      padding: 20px;
+      line-height: 1.6; 
+  }
+  
+  .info-box p {
+      margin-bottom: 0.1em; 
+  }
+  
+  .main-box2{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    min-height:60vh;
+  }
+  
+  
+  
+  .title-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pattern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-image: url('/src/assets/pattern3.svg');
+    /* background-size: contain;
+    /* background-repeat: repeat-x; */
+    /* background-position: center center; */ 
+  }
+  
+  
+  .trip1 {
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 8vh;
+    width: 100%;
+    height: 29.7vh;
+    position: relative; /* Positioning context for the pseudo-element */
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+  }
+  
+  .trip1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/vegaslights.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.7s ease-in-out; /* Smooth transition for opacity */
+    z-index: -1; /* Place the image behind the content */
+  }
+  
+  .trip1:hover::before {
+    opacity: 1; /* Image fades in on hover */
+  }
+  
+  .trip1 > * {
+    position: relative; /* Ensure text is above the pseudo-element */
+    z-index: 1; /* Text content is above the background image */
+  }
+  
+  
+  .tripDate1 {
+    border-bottom: 3px solid #FFFFE3;
+    height: 36.8vh;
+    width: 30.2vh;
+    display: flex;
+    align-items: flex-end; 
+    justify-content: center; 
+    text-align: center; 
+    transform: rotate(-90deg);
+    font-size: 9vh;
+  }
+  
+  
+  .trip2 {
+    padding-left: 4%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 8vh;
+    width: 94.5%;
+    height: 29.7vh;
+    position: relative; /* Positioning context for the pseudo-element */
+    overflow: hidden; /* Ensure the pseudo-element doesn't overflow */
+  }
+  
+  .trip2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/src/assets/nyBball.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.7s ease-in-out; /* Smooth transition for opacity */
+    z-index: -1; /* Place the image behind the content */
+  }
+  
+  .trip2:hover::before {
+    opacity: 1; /* Image fades in on hover */
+  }
+  
+  .trip2 > * {
+    position: relative; /* Ensure text is above the pseudo-element */
+    z-index: 1; /* Text content is above the background image */
+  }
+  
+  
+  .tripDate2{
+    border-top: 3px solid #FFFFE3;
+    height: 36vh;
+    width: 30.2vh; 
+    display: flex;
+    align-items: flex-start; 
+    justify-content: center; 
+    text-align: center; 
+    transform: rotate(-90deg);
+    font-size: 9vh;
+  }
+  
+  .main-box3{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    min-height:60vh;
+    border: 3px solid #FFFFE3;
+    border-top: none;
+  }
+  
+  .music-title, .cinema-title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .music-pattern {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-image: url(./assets/pattern1.svg);
+  }
+  
+  .cinema-pattern{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-image: url(./assets/pattern3.svg);
+  }
+  
+  
+  .albumDate{
+    height: 24vh;
+    width: 50vh; 
+    display: flex;
+    align-items: flex-end; 
+    transform: rotate(-90deg);
+    font-size: 9vh;
+    /* border-bottom: 3px solid orange; */
+  }
+  
+  .album1{
+      padding-left: 4%;
+      display: flex;
+      justify-content: flex-start;
+      align-items:center ;
+      font-size: 8vh;
+      width: 100%;
+      height: 30vh;
+      /* border-left: 3px solid #FFFFE3; */
+  }
+  
+  .info1{
+    display: flex;
+    font-family: 'Satoshi';
+    font-weight: 500;
+    height: 20vh;
+    width: 6vh;
+    align-items: end;
+    margin: auto;
+  }
+  
+  .main-box4{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    min-height:70vh;
+    border: 3px solid #FFFFE3;
+    border-top: none;
+  }
+  
+  
