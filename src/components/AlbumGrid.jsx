@@ -14,8 +14,8 @@ const AlbumBox = ({ name, details, date }) => (
 function AlbumGrid() {
   return (
     <div className="grid-container">
-      <AlbumBox name="Album 2" details="Artist, Genre" date="20XX" />
-      <AlbumBox name="Album 3" details="Artist, Genre" date="20XX" />
+      <AlbumBox name="2014 Forest Hill Drive" details="J.Cole, Hip-Hop/Rap" date="2014" />
+      <AlbumBox name="Blonde" details="Frank Ocean, Pop" date="2016" />
       <div className='album-pattern'></div>
     </div>
   );

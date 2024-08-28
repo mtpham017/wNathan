@@ -71,9 +71,9 @@ function App() {
 
       <div className='main-box3'>
         <StandBlock
-            date={<h1 className='albumDate'>20XX</h1>}
-            info={<h1 className='info1'>Artist <br></br> Genre </h1>}
-            label={<h1 className='album1'>Album 1</h1>}
+            date={<h1 className='albumDate'>2021</h1>}
+            info={<h1 className='info1'>Twice <br></br> Kpop </h1>}
+            label={<h1 className='album1'>Formula of Love</h1>}
           />
 
         <AlbumGrid />
