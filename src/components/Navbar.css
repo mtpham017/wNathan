@@ -12,7 +12,6 @@ body {
     margin: auto;
     border: 3px solid #FFFFE3;
     border-left: none;
-    
 }
 
 .menu-box {
@@ -29,7 +28,7 @@ body {
 }
 
 .menu-button {
-    background: rgba(255, 255, 255, 0);
+    background: #10100E;
     border: none;
     cursor: pointer;
     display: flex;
@@ -37,10 +36,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 15%;
-    outline: none;
-    
+    outline: none; 
 }
-
 
 .line {
     width: 50px;
@@ -61,3 +58,58 @@ body {
 
     
 } */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #10100E;
+    display: flex;
+    justify-content: start;
+    z-index: 100; /* Ensure overlay is above other content */
+}
+
+.overlay-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.overlay-content a {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding-left: 4%;
+    color: #FFFFE3;
+    font-size: 6rem;
+    border-bottom: 3px solid #FFFFE3;
+    height: 19%;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth background fade on hover */
+}
+
+.overlay-content a:hover {
+    background-color: #252521; /* Background fades to a slightly lighter color */
+}
+
+.close-button {
+    width: 15%;
+    background: none;
+    border-right: 3px solid #FFFFE3;
+    border-top: none;
+    border-bottom: none;
+    font-size: 4rem;
+    font-weight:300;
+    color: #FFFFE3;
+    cursor: pointer;
+    z-index: 101; 
+    transition: background-color 0.3s ease; /* Smooth background fade on hover */
+}
+
+.close-button:hover {
+    background-color: #252521; /* Background fades to a slightly lighter color */
+    color: #ffffe3d5; /* Optional: Subtle color change */
+}

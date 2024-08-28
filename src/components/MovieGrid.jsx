@@ -20,26 +20,26 @@ function MovieGrid() {
     <div className="movie-container">
       <MovieBox 
         name="La La Land" 
-        details="Director, Genre" 
-        date="20XX" 
+        details="Damien Chazelle, Musical" 
+        date="2016" 
         backgroundImage={Lalaland} 
       />
       <MovieBox 
         name="Interstellar" 
-        details="Director, Genre" 
-        date="20XX" 
+        details="Christopher Nolan, Sci-Fi" 
+        date="2014" 
         backgroundImage={Interstellar} 
       />
       <MovieBox 
         name="Hometown Cha Cha Cha" 
-        details="Director, Genre" 
-        date="20XX" 
+        details="Yoo Je-Won, Romance" 
+        date="2021" 
         backgroundImage={Hometown} 
       />
       <MovieBox 
         name="Your Lie In April" 
-        details="Director, Genre" 
-        date="20XX" 
+        details="Takehiko Shinjō, Romance" 
+        date="2014" 
         backgroundImage={YLIA} // Add another image or use existing
       />
     </div>

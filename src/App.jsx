@@ -14,8 +14,8 @@ function App() {
 
   // Zones
   const Zones = [
-    { title: <h1 className='trip1'>Trip 1</h1>, date: <h1 className='tripDate1'>20XX</h1>, isReversed: true },
-    { title: <h1 className='trip2'>Trip 2</h1>, date: <h1 className='tripDate2'>20XX</h1>, isReversed: false },
+    { title: <h1 className='trip1'>Vegas</h1>, date: <h1 className='tripDate1'>2022</h1>, isReversed: true },
+    { title: <h1 className='trip2'>New York</h1>, date: <h1 className='tripDate2'>2022</h1>, isReversed: false },
     
     
   ];
