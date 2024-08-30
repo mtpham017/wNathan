@@ -22,7 +22,7 @@ function Home() {
     return (
   
       <div className="Home">
-        
+        <Navbar/>
         
         <div className='main-box'> {/* First main box of the webpage. Just having a little info box and the title of the webpage and a little quote */}
           <div className="info-box">

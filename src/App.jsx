@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar /> */}
           <Routes> {/* Wrap Route components in Routes */}
             <Route path="/" element={<Home/>}/>
             <Route path ="/trips" element={<Trips/>}/>
