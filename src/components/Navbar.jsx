@@ -22,9 +22,11 @@ const Navbar = () => {
 
             {isOverlayVisible && (
                 <div className="overlay">
-                    <button className="close-button" onClick={toggleOverlay}>X</button>
+                    <div className='bar'>
+                        <button className="close-button" onClick={toggleOverlay}>w/Nathan</button>
+                    </div>
                     <div className="overlay-content">
-                        <a href="/">Home</a>
+                        {/* <a href="/">Home</a> */}
                         <a href="/trips">Trips</a>
                         <a href="/albums">Albums</a>
                         <a href="/cinema">Cinema</a>
