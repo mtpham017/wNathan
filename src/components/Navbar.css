@@ -68,64 +68,50 @@ body {
     background-color: #10100E;
     display: flex;
     justify-content: start;
-    flex-direction: column;
     z-index: 100; /* Ensure overlay is above other content */
 }
 
 .overlay-content {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
     text-align: center;
-    border: 3px solid;
-    border-top: none;
-    width: 99.7%;
-    height: 8vh;
-    
 }
 
 .overlay-content a {
-    font-family: 'Satoshi';
-    display: inline-block; /* Display links as inline-blocks */
-    color: #ffffe3c4;
-    font-size: 2rem;
-    font-weight: 500;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    padding: 2% 0 0 4%; 
+    color: #FFFFE3;
+    font-size: 5rem;
+    border-bottom: 3px solid #FFFFE3;
+    height: 30%;
     text-decoration: none;
-    margin: 10px 32px; /* Space between each item */
-    transition: color 0.2s ease, font-size 0.3s ease; /* Combine transitions */
+    transition: background-color 0.3s ease; /* Smooth background fade on hover */
 }
 
 .overlay-content a:hover {
-    color: #ffffe3; 
-    font-size: 2.3rem; /* Slightly larger font size on hover */
-}
-
-
-.bar{
-    display: flex;
-    width: 99.7%;
-    height: 16vh;
-    background-image: url('/src/assets/pattern3.svg');
-    border: 3px solid #FFFFE3;
-    color: #FFFFE3;
-    cursor: pointer;
-    z-index: 101; 
-    transition: font-size 0.3s ease; /* Smooth background fade on hover */
-
+    background-color: #252521; /* Background fades to a slightly lighter color */
 }
 
 .close-button {
-    box-shadow: none;
-    font-family: 'Zodiak';
-    font-weight: 600;
-    color: #FFFFE3;
-    font-size: 3rem;
-    transition: font-size 0.8s ease;
-    background-color: #10100E;
+    width: 15%;
+    background: none;
     border-right: 3px solid #FFFFE3;
-    width: 50vh;
-    
+    border-top: none;
+    border-bottom: none;
+    font-size: 4rem;
+    font-weight:300;
+    color: #FFFFE3;
+    cursor: pointer;
+    z-index: 101; 
+    transition: background-color 0.3s ease; /* Smooth background fade on hover */
 }
 
 .close-button:hover {
-    font-size: 4rem;
-
+    background-color: #252521; /* Background fades to a slightly lighter color */
+    color: #ffffe3d5; /* Optional: Subtle color change */
 }
+
